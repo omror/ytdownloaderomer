@@ -2,7 +2,7 @@ import os
 import re
 from pytubefix import YouTube
 from tqdm import tqdm
-from moviepy.editor import VideoFileClip, AudioFileClip
+from moviepy import VideoFileClip, AudioFileClip
 
 
 # İlerleme çubuğunu güncelleyen fonksiyon

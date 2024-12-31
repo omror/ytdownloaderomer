@@ -37,4 +37,4 @@ output_file_path = os.path.join(desktop_path, "birlesmis_video.mp4")  # Çıktı
 # Birleştirme işlemini başlat
 merge_video_audio_ffmpeg(video_file_path, audio_file_path, output_file_path)
 
-merge_video_audio(video_file_path, audio_file_path, output_file_path)
+merge_video_audio_ffmpeg(video_file_path, audio_file_path, output_file_path)
